@@ -30,7 +30,7 @@ spec:
             - name: MYSQL_ROOT_PASSWORD
               value: docker1    # ⚠️ change this for production
             - name: MYSQL_DATABASE
-              value: userexamdb2
+              value: userdbexam2
           volumeMounts:
             - name: mysql-storage
               mountPath: /var/lib/mysql

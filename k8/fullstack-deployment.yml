@@ -73,7 +73,7 @@ spec:
         - name: backend
           image: bojanapallimeenapadmasiri/k8-backend2:latest  # <-- change this
           ports:
-            - containerPort: 1953
+            - containerPort: 1954
 ---
 apiVersion: v1
 kind: Service
